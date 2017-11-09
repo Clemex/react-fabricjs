@@ -156,7 +156,7 @@ export default class StaticCanvas extends React.Component {
 			this.state.canvas.setHeight(nextProps.height);
 		}
 		if (this.props.width !== nextProps.width) {
-			this.state.canvas.setHeight(nextProps.width);
+			this.state.canvas.setWidth(nextProps.width);
 		}
 
 		if (diff(this.props.overlayColor, nextProps.overlayColor)) {
